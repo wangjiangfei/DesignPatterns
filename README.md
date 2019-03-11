@@ -13,7 +13,7 @@
 - 原型模式(Prototype)
 - 工厂方法模式(Factory Method)
 - 抽象工厂模式(Abstract Factory)
-- 生成器(Builder)
+- 生成器模式(Builder)
 
 
 
