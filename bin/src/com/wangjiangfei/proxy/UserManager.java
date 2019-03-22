@@ -49,6 +49,6 @@ public class UserManager {
      */
     private Connection getConnection() throws Exception {
         Class.forName("com.mysql.jdbc.Driver");
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/test", "root", "12345");
+        return DriverManager.getConnection("jdbc:mysql://localhost:3306/test1", "root", "12345");
     }
 }
