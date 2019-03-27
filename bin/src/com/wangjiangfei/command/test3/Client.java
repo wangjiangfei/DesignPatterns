@@ -19,7 +19,7 @@ public class Client {
             }
         };
         cmd.setStr("退化的命令模式示例");
-        
+
 
         Invoker invoker = new Invoker();
         // 按下按钮，真正启动执行命令

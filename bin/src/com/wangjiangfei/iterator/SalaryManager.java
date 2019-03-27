@@ -1,0 +1,45 @@
+package com.wangjiangfei.iterator;
+
+/**
+ * 被客户方收购的那个公司的工资管理类
+ *
+ * @author wangjiangfei
+ */
+public class SalaryManager extends Aggregate {
+
+    /**
+     * 用数组管理
+     */
+    private PayModel[] pms = null;
+
+    /**
+     * 获取工资列表
+     * @return 工资列表
+     */
+    public PayModel[] getPays() {
+        return pms;
+    }
+
+    /**
+     * 计算工资
+     */
+    public void calcSalary() {
+        // 计算工资，并把工资信息填充到工资列表中
+        PayModel pm1 = new PayModel();
+        pm1.setPay(2200);
+        pm1.setUserName("王五");
+
+        PayModel pm2 = new PayModel();
+        pm2.setPay(3600);
+        pm2.setUserName("赵六");
+
+        pms = new PayModel[2];
+        pms[0] = pm1;
+        pms[1] = pm2;
+    }
+
+    @Override
+    public Iterator createIterator() {
+        return new ArrayIteratorImpl(this);
+    }
+}
