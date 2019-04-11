@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb8af55b-7d77-489f-b1b5-48992456de47" name="Default" comment="状态模式">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/wangjiangfei/responsibility/Client.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/wangjiangfei/responsibility/DepManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/wangjiangfei/responsibility/GeneralManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/wangjiangfei/responsibility/Handler.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/com/wangjiangfei/responsibility/ProjectManager.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/com/wangjiangfei/responsibility/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/com/wangjiangfei/responsibility/DepManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/com/wangjiangfei/responsibility/GeneralManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/com/wangjiangfei/responsibility/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/src/com/wangjiangfei/responsibility/ProjectManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wangjiangfei/responsibility/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wangjiangfei/responsibility/DepManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wangjiangfei/responsibility/GeneralManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wangjiangfei/responsibility/Handler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wangjiangfei/responsibility/ProjectManager.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/.idea/workspace.xml" afterPath="$PROJECT_DIR$/bin/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -406,7 +422,7 @@
       <workItem from="1554634959411" duration="6012000" />
       <workItem from="1554813391374" duration="3697000" />
       <workItem from="1554879357089" duration="12140000" />
-      <workItem from="1554943947765" duration="2127000" />
+      <workItem from="1554943947765" duration="2156000" />
     </task>
     <task id="LOCAL-00001" summary="模板方法模式">
       <created>1553951005428</created>
@@ -440,7 +456,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230289000" />
+    <option name="totallyTimeSpent" value="230318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
